@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js" defer></script>
+    <link rel="stylesheet" href="./css/login-signup.css">
+
+    <!-- ICONSOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <style>
+        body { background-image: url("./images/bg-texture-1.png");}
+    </style>
+
+    <title>LINGUA GLOBAL | Login & Sign-up</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav__container">
+            <a href="index.html" class="nav__container__logo">
+                <img src="./images/logo.svg" alt="logo">
+                <img src="./images/logo-login.svg" alt="logo-login">
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login-signup.html">Sign Up</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!--================= End of navbar ==============-->
+
+    <section class="section__signin-signup">
+        <div class="container signup-signup__container">
+            <div class="signin-signup">
+                <h1>Login & Sign-up</h1>
+                <form class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="uil uil-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="uil uil-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-line"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                    <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+                </form>
+                <form class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="uil uil-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="uil uil-envelope-alt"></i>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="uil uil-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-line"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                    <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+                </form>
+            </div>
+            <div class="panels__container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>Member of LINGUA?</h3>
+                        <p>Continue to sign in to enjoy yourself with LINGUA GLOBAL.</p>
+                        <button class="btn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <img src="./images/signin.svg" alt="signin" class="image">
+                </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>New to LINGUA?</h3>
+                        <p>Sign up now and you will have unlimited access to various free PDFs.</p>
+                        <button class="btn" id="sign-up-btn">Sign up</button>
+                    </div>
+                    <img src="./images/signup.svg" alt="signup" class="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
