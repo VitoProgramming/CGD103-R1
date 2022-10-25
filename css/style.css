@@ -27,6 +27,7 @@
   --color-bg: #2a0345;
   --color-bg1: #330456;
   --color-bg2: #570a8d;
+  --color-bg3: #8e65ab;
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -155,7 +156,7 @@ nav button {
 }
 
 .nav__menu a:hover {
-  color: var(--color-bg2);
+  color: var(--color-bg3);
   transform: translateY(-5px);
 }
 
@@ -174,7 +175,6 @@ nav button {
   left: 0;
   right: 0;
 }
-
 
 /* ====================== Header ====================== */
 
@@ -872,7 +872,7 @@ footer ul li a:hover {
   }
 
   .header__right img {
-   display: none;
+    display: none;
   }
 
   /* ====================== Categories ====================== */
@@ -938,5 +938,4 @@ footer ul li a:hover {
   .footer__1 p {
     margin: 1rem auto;
   }
-
 }

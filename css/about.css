@@ -67,6 +67,7 @@
 .team {
   background: var(--color-bg1);
   box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+  padding: 6rem 0 8rem 0;
 }
 
 .team__container {
@@ -189,6 +190,10 @@
     }
 
      /* ====================== Team ====================== */
+
+    .team {
+      padding: 6rem 0;
+    }
 
     .team__container {
       grid-template-columns: 1fr 1fr;
