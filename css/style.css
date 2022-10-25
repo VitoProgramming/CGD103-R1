@@ -872,8 +872,10 @@ footer ul li a:hover {
   }
 
   .header__right img {
-    width: 45%;
+    width: 35%;
     margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   /* ====================== Categories ====================== */
