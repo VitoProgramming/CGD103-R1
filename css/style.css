@@ -19,11 +19,11 @@
   --color-success: #02906c;
   --color-warning: #c5a13e;
   --color-danger: #b34270;
-  --color-danger-variant: rgba(247, 88, 66, 0.4);
-  --color-white: rgb(255, 255, 255);
+  --color-danger-variant: #f7584266;
+  --color-white: #ffffff;
   --color-white1: #cfcfcf;
-  --color-light: rgba(207, 207, 207, 0.7);
-  --color-black: rgb(29, 29, 29);
+  --color-light: #cfcfcfb3;
+  --color-black: #1d1d1d;
   --color-bg: #2a0345;
   --color-bg1: #330456;
   --color-bg2: #570a8d;
