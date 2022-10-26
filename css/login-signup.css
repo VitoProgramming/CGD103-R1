@@ -439,6 +439,14 @@ form.sign-up-form {
     width: var(--container-width-md);
   }
 
+  .nav__container.sign-up-mode img:first-child {
+    display: initial;
+  }
+
+  .nav__container.sign-up-mode img:last-child {
+    display: none;
+  }
+
   nav img:first-child {
     display: none;
   }
@@ -502,7 +510,6 @@ form.sign-up-form {
   }
 
   .nav__menu a:hover {
-    /* transform: translateY(0px); */
     transform: initial;
   }
 

@@ -3,16 +3,19 @@
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
 const container = document.querySelector(".container");
+const nav__container = document.querySelector(".nav__container");
 const sign_in_btn2 = document.querySelector("#sign-in-btn2");
 const sign_up_btn2 = document.querySelector("#sign-up-btn2");
 
 window.addEventListener("DOMContentLoaded", () => {
   sign_up_btn.addEventListener("click", () => {
     container.classList.add("sign-up-mode");
+    nav__container.classList.add("sign-up-mode")
   });
 
   sign_in_btn.addEventListener("click", () => {
     container.classList.remove("sign-up-mode");
+    nav__container.classList.remove("sign-up-mode");
   });
 
   sign_up_btn2.addEventListener("click", () => {
