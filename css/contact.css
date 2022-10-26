@@ -124,6 +124,7 @@ textarea {
         grid-template-columns: 1fr;
         gap: 3rem;
         margin-top: 3rem;
+        margin-bottom: 6rem;
         padding: 0;
     }
 
