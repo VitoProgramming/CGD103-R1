@@ -310,7 +310,8 @@ form.sign-up-form {
 }
 
 .account-text {
-  color: var(--color-black)
+  color: var(--color-black);
+  display: none;
 }
 
 .panels__container {
@@ -596,6 +597,10 @@ form.sign-up-form {
     display: none;
     margin-top: 6rem;
     margin-bottom: 1rem;
+  }
+
+  .account-text {
+    display: initial;
   }
 
   .container.sign-up-mode2 form.sign-up-form {
