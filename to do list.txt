@@ -1,12 +1,13 @@
-
 //  1. change the font  --> checked
 //  2. change style of navbar and color of hover --> checked
-//  3. create sign-up page -->
-// 4. create slider in homepage -->
-// 5. create number counting animation and dynamic card slider in about page -->
-// 6. redesign courses page to web 3.0 style -->
-//  7. add animation or transition to contact us page-->
-//  8. lay out the privacy policy, terms & conditions, and disclaimer -->
-//  9. design typography -->
-// 10. replace images with mine -->
-// 11. code review (relocate google font to css from html)-->
+//  3. create sign-up page --> checked
+//  4. create slider in homepage --> checked
+//  5. create number counting animation and dynamic card slider in about page --> checked
+//  6. redesign courses page to web 3.0 style --> checked
+//  7. add animation or transition to contact us page--> checked
+//  8. lay out the privacy policy, terms & conditions, and disclaimer --> checked
+//  9. design typography --> checked
+// 10. replace images with mine --> checked
+// 11. code review (relocate google font to css from html)--> checked
+// 12. create preloader (homepage) and side nav (courses)
+// 13. deal with logo color (tablet) in login/sign-up
