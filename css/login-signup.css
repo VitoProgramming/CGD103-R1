@@ -1,6 +1,6 @@
- /* Google Fonts (Open Sans) */
+/* Google Fonts (Open Sans) */
 
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 html,
 body {
@@ -69,7 +69,7 @@ h4 {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: var(--color-bg);
   line-height: 1.7;
 }
@@ -103,9 +103,9 @@ nav img:last-child {
 }
 
 .nav__container__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__menu li {
@@ -284,7 +284,7 @@ form.sign-up-form {
 
 .social-text {
   margin: 10px 0;
-  color: var(--color-black)
+  color: var(--color-black);
 }
 
 .social-media {
@@ -439,20 +439,31 @@ form.sign-up-form {
     width: var(--container-width-md);
   }
 
-  .nav__container.sign-up-mode img:first-child {
-    display: initial;
-  }
-
-  .nav__container.sign-up-mode img:last-child {
-    display: none;
-  }
-
   nav img:first-child {
-    display: none;
+    opacity: 0;
+    transition: 1.1s ease-in-out;
+    transition-delay: .5s;
   }
 
   nav img:last-child {
     display: initial;
+    position: absolute;
+    order: -1;
+    opacity: 1;
+    transition: 1.1s ease-in-out;
+    transition-delay: .4s;
+  }
+
+  .nav__container.sign-up-mode img:first-child {
+    opacity: 1;
+    transition: 1.1s ease-in-out;
+    transition-delay: .4s;
+  }
+
+  .nav__container.sign-up-mode img:last-child {
+    opacity: 0;
+    transition: 1.1s ease-in-out;
+    transition-delay: .5s;
   }
 
   nav button {
@@ -582,7 +593,11 @@ form.sign-up-form {
     width: var(--container-width-sm);
   }
 
-  .nav__container img {
+  .nav__container img:first-child {
+    display: none;
+  }
+  .nav__container img:last-child {
+    position: static;
     width: 90%;
   }
 
