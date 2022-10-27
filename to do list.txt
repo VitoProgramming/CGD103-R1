@@ -9,7 +9,12 @@
 //  9. design typography --> checked
 // 10. replace images with mine --> checked
 // 11. code review (relocate google font to css from html)--> checked
-// 12. create preloader (homepage) and side nav (courses)
-// 13. deal with logo color (tablet) in login/sign-up using "position" property and make two logos the same position
-// 14. deal with contact us that message could be sent to my email
-// 15. ensure if we need to amend font size of body (for the elder)
+12. create preloader (homepage) and side nav (courses)
+13. deal with logo color (tablet) in login/sign-up using "position" property and make two logos the same position
+14. deal with contact us that message could be sent to my email
+// 15. amend font size of body (be elderly-friendly)
+16. enhance user guidance
+17. create membership page
+18. create payment page
+19. create subscription plan page
+20. create sign up page (facebook, instagram, line, and linkedIn)
