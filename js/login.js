@@ -14,8 +14,11 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   sign_in_btn.addEventListener("click", () => {
+
     container.classList.remove("sign-up-mode");
     nav__container.classList.remove("sign-up-mode");
+    container.classList.add("sign-up-mode3");
+    nav__container.classList.add("sign-up-mode3");
   });
 
   sign_up_btn2.addEventListener("click", () => {
